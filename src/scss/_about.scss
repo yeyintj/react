@@ -1,0 +1,79 @@
+.about {
+    padding-bottom: 2rem;
+
+&__bio-img {
+    background: linear-gradient(to right, rgba($primary-color, .8), rgba($primary-color, .4)) ,
+                url('../img/pf-5.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    & > h2 {
+        color: $secondary-color;
+        text-transform: uppercase;
+        font-size: 4rem;
+    }
+
+    & > p {
+        font-size: 1.5rem;
+    }
+}
+
+
+.social__icons {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        text-align: right;
+        padding: 1rem;
+        font-size: 1rem;
+        transform: rotate(90deg) translate(-5rem, -5rem);
+}
+
+}
+
+.jobs {
+width: 60vw;
+margin: 2rem auto;
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 2rem;
+
+&__job {
+        background-color: lighten($primary-color, 10%);
+        padding: 10px;
+        border-bottom: 2px solid $secondary-color;
+
+    & > h2, h3 {
+        margin: .7rem 0;
+    }
+    & > h2 {
+        font-size: 2rem;
+        color: $secondary-color;
+    }
+
+    & > h3 {
+        font-size: 1.5rem;
+    }
+    & > h6 {
+        font-size: 1rem;
+        margin: .5rem 0;
+    }
+
+    & > p {
+        font-size: 1.5rem;
+    }
+}
+}
+

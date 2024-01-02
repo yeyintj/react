@@ -1,0 +1,39 @@
+.home {
+    background: linear-gradient(to right, rgb($primary-color, .6), rgb($primary-color, .2)),  url('../img/pf-8.jpg') center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 40vh;
+    overflow: hidden;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    &-name {
+        font-size: 5rem;
+        font-weight: bold;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 10px;
+
+        &__last {
+            color: $secondary-color;
+        }
+    }
+
+    
+
+
+    footer {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        text-align: right;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+}   
+

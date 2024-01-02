@@ -1,0 +1,106 @@
+.project {
+    padding-bottom: 2rem;
+    
+    &__bio-img {
+        background: linear-gradient(to right, rgba($primary-color, .8), rgba($primary-color, .4)) ,
+                    url('../img/pf-5.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+
+        & > h2 {
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-size: 4rem;
+        }
+    }
+
+    &__items {
+        width: 60vw;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+    }
+
+    &__item {
+        border-bottom: 3px solid $secondary-color;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        
+
+        & > img {
+            
+            width: 100%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 100%;
+            left: 0;
+            background: $secondary-color;
+            opacity: 0;
+            @include trasition-ease;
+        }
+
+        &:hover {
+            &::after {
+                top: 0;
+                opacity: .8;
+
+            }
+            .project__btn {
+                opacity: 1;
+            }
+        }
+        
+    }
+
+    &__btns {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        align-items: center;
+        z-index: 1;
+        font-size: 1rem;
+        }
+
+        &__btn {
+            opacity: 0;
+            color: set-text-color($secondary-color);
+            @include trasition-ease;
+
+            &:hover {
+                color: set-text-color(set-text-color($secondary-color));
+            }
+    }
+
+    .social__icons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+        
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            text-align: right;
+            padding: 1rem;
+            font-size: .8rem;
+            transform: rotate(90deg) translate(-5rem, -5rem);
+    }
+}

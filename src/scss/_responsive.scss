@@ -1,0 +1,99 @@
+@include media-md {
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            transform: translateY(0);
+            background: transparent;
+            flex-flow: row wrap;
+            
+            justify-content: right;
+            height: 100%;
+            gap: 20px;
+            margin-right: 3rem;
+
+            &__item {
+                transform: translateX(0);
+            }
+        }
+    }
+
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .home {
+        
+    
+        h2 {
+            font-size: 2.5rem;
+            
+        }
+    
+        &-name {
+            font-size: 5.5rem;
+        }
+    }
+
+    .project {
+
+
+        &__items {
+            width: 60vw;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2rem;
+    
+        }
+
+        &__btns {
+            font-size: 1.5rem;
+        }
+
+    }
+    .contact {
+
+        & > h2 {
+            font-size: 2.5rem;
+        }
+        .contact__lists {
+            grid-template-columns: repeat(2, 1fr);
+            font-size: 1.8rem;
+        }
+    }
+    
+}
+
+@include media-lg {
+
+    .project {
+
+
+        &__items {
+            width: 60vw;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+    
+        }
+
+        &__btns {
+            font-size: 1.5rem;
+        }
+
+    }
+    .contact {
+        
+        & > h2 {
+            font-size: 3rem;
+        }
+
+        .contact__lists {
+            grid-template-columns: repeat(3, 1fr);
+            font-size: 2rem;
+        }
+    }
+    
+}

@@ -1,0 +1,65 @@
+
+
+@import 'config';
+@import 'navbar';
+@import 'home';
+@import 'about';
+@import 'project';
+@import 'contact';
+@import 'responsive';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+        background-color: $primary-color;
+        color: set-text-color($primary-color);
+        height: 100vh;
+        line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: set-text-color($primary-color);
+}
+
+.link {
+    color: set-text-color($primary-color);
+    border-bottom: 1px solid $primary-color;
+}
+
+
+section {
+    // height: 100%;
+    // width: 100%;
+
+    .social__icons {
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+    
+        a {
+            margin: .8rem;
+            transition: .4s ease-in-out;
+            padding-bottom: .5rem;
+            border-bottom: 1px solid $primary-color;
+    
+            &:hover {
+                color: $secondary-color;
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+}
