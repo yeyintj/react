@@ -1,3 +1,7 @@
+# MY PORTFOLIO
+
+This repository contains the source code and files for my personal portfolio website. The website is built using React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
