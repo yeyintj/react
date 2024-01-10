@@ -22,13 +22,13 @@ export default function About() {
             <div>
                     <section className="about">
 
-                        <div className="about__bio-img" data-aos="fade-down" data-aos-duration="3000">
-                                <h2 data-aos="fade-right" data-aos-duration="3000">Bio</h2>
-                                <p  data-aos="fade-right" data-aos-duration="3000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi optio adipisci, delectus architecto ullam animi.</p>
+                        <div className="about__bio-img" data-aos="fade-down" >
+                                <h2 data-aos="fade-right" >Bio</h2>
+                                <p  data-aos="fade-right" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi optio adipisci, delectus architecto ullam animi.</p>
                         </div>
-                        {aboutData.map(data => {
+                        {/* {aboutData.map(data => {
                             return(
-                                <div className="jobs" data-aos="fade-right" data-aos-duration="2000">
+                                <div className="jobs" data-aos="fade-right">
                                     <div className="jobs__job" key={data.id}>
                                         <h2>{data.year}</h2>
                                         <h3>{data.workPalce}</h3>
@@ -37,7 +37,45 @@ export default function About() {
                                     </div>
                                 </div>
                             );
-                        })}
+                        })} */}
+                        <div className="jobs" data-aos="fade-right">
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                    <div className="jobs__job">
+                                        <h2>2017 - Current</h2>
+                                        <h3>Google</h3>
+                                        <h6>Full Stack Developer</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ea, pariatur possimus asperiores similique magni dolorum fugiat inventore numquam nesciunt?</p>
+                                    </div>
+                                </div>
                         
 
                        
@@ -55,7 +93,7 @@ export default function About() {
                         </div>
 
                         <footer>
-                            &copy; Copyright 2023. Allright served.
+                            &copy; Copyright 2023. Alright served.
                         </footer>
                     </section>
             </div>

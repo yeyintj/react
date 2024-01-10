@@ -23,18 +23,18 @@ export default function About() {
         
         return(
             <div>
-                    <section className="contact" data-aos="fade-down" data-aos-duration="3000">
-                        <h2 data-aos="fade-right" data-aos-duration="2000">Contact Me ...</h2>
+                    <section className="contact" data-aos="fade-down">
+                        <h2 data-aos="fade-right" >Contact Me ...</h2>
                         <div className="contact__lists">
-                            <div data-aos="fade-right" data-aos-duration="2000">
+                            <div data-aos="fade-right" >
                                 <FontAwesomeIcon icon={faEnvelope} size="2x"/> Email 
                                 <p>email@email.com</p>
                             </div>
-                            <div data-aos="fade-down" data-aos-duration="2000">
+                            <div data-aos="fade-down" >
                                 <FontAwesomeIcon icon={faMobileScreenButton} size="2x" /> Phone 
                                 <p>+1 (555) 555-555</p>
                             </div>
-                            <div data-aos="fade-left" data-aos-duration="2000">
+                            <div data-aos="fade-left" >
                                 <FontAwesomeIcon icon={faLocationDot} size="2x"/> Address 
                                 <p>123 First St, Houston, TX</p>
                             </div>
@@ -54,7 +54,7 @@ export default function About() {
                         </div>
 
                         <footer>
-                            &copy; Copyright 2023. Allright served.
+                            &copy; Copyright 2023. Alright served.
                         </footer>
                     </section>
 

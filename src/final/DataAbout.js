@@ -1,4 +1,5 @@
-export default [
+ const Data =
+ [
     {
         id: 1,
         year : "2017 - Current",
@@ -29,4 +30,4 @@ export default [
     },
 ] 
 
-
+export default Data;

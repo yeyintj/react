@@ -20,8 +20,8 @@ export default function Home() {
       }, []);
     return(
                 <div>
-                    <section className="home" data-aos="fade-down" data-aos-duration="3000">
-                        <div data-aos="fade-right" data-aos-duration="3000">
+                    <section className="home" data-aos="fade-down">
+                        <div data-aos="fade-right">
                             <h2>Hi! My Name Is</h2>
                             <h1 className="home-name">
                                 Mike
@@ -44,7 +44,7 @@ export default function Home() {
                         </div>
 
                         <footer>
-                            &copy; Copyright 2023. Allright served.
+                            &copy; Copyright 2023. Alright served.
                         </footer>
                     </section>
                 </div>

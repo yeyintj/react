@@ -29,17 +29,17 @@ export default function About() {
         return(
             <div>
                     <section className="project">
-                        <div className="project__bio-img" data-aos="fade-down" data-aos-duration="3000">
-                            <h2  data-aos="fade-right" data-aos-duration="3000">My Projects</h2>
+                        <div className="project__bio-img" data-aos="fade-down">
+                            <h2  data-aos="fade-right">My Projects</h2>
                         </div>
 
                     
 
                         <div className="project__items">
-                            <div className="project__item" data-aos="fade-right" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img1} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -49,10 +49,10 @@ export default function About() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="project__item" data-aos="fade-down" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img2} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -62,10 +62,10 @@ export default function About() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="project__item" data-aos="fade-left" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img3} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -75,10 +75,10 @@ export default function About() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="project__item" data-aos="fade-right" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img4} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -88,10 +88,10 @@ export default function About() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="project__item" data-aos="fade-up" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img5} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -101,10 +101,10 @@ export default function About() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="project__item" data-aos="fade-left" data-aos-duration="2000">
+                            <div className="project__item" data-aos="fade-right">
                                 <img src={img6} alt=""/>
                                 <div className="project__btns">
-                                    <Link to="" className="project__btn">
+                                    <Link to="!#" className="project__btn">
                                         <FontAwesomeIcon icon={faEye} transform="left-4"/>
                                         Preview
                                     </Link>
@@ -132,7 +132,7 @@ export default function About() {
                         </div>
 
                         <footer>
-                            &copy; Copyright 2023. Allright served.
+                            &copy; Copyright 2023. Alright served.
                         </footer>
                     </section>
 

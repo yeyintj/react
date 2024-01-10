@@ -1,5 +1,7 @@
-import React, {useState, useEffect} from "react";
-import { NavLink } from "react-router-dom";
+import React, {useState} from "react";
+import {  NavLink, Outlet } from "react-router-dom";
+
+
 
 
  
@@ -21,16 +23,16 @@ export default function Navbar() {
                     <nav className={`nav ${showMenu ? 'nav open' : 'nav'}`}>
                         <ul className={`menu-nav ${showMenu ? 'menu-nav open' : 'menu-nav'}`}>
                             <li className={`menu-nav__item ${showMenu ? 'menu-nav__item open' : 'menu-nav__item'}`} >
-                                <NavLink to="/" className="menu-nav__link" activeClassName="active">Home</NavLink>
+                                <NavLink to="/home" className="menu-nav__link" activeclassname="active">Home</NavLink>
                             </li>
                             <li className={`menu-nav__item ${showMenu ? 'menu-nav__item open' : 'menu-nav__item'} `}>
-                                <NavLink to="/about" className="menu-nav__link" activeClassName="active">About</NavLink>
+                                <NavLink to="/about" className="menu-nav__link" activeclassname="active">About</NavLink>
                             </li>
                             <li className={`menu-nav__item ${showMenu ? 'menu-nav__item open' : 'menu-nav__item'} `}>
-                                <NavLink to="/portfolio" className="menu-nav__link" activeClassName="active">Portfolio</NavLink>
+                                <NavLink to="/portfolio" className="menu-nav__link" activeclassname="active">Portfolio</NavLink>
                             </li>
                             <li className={`menu-nav__item ${showMenu ? 'menu-nav__item open' : 'menu-nav__item'} `}>
-                                <NavLink to="/contact" className="menu-nav__link" activeClassName="active">Contact</NavLink>
+                                <NavLink to="/contact" className="menu-nav__link" activeclassname="active">Contact</NavLink>
                             </li>
                             
                         </ul>
@@ -40,6 +42,7 @@ export default function Navbar() {
                         <span className={`menu-btn__burger ${showMenu ? 'menu-btn__burger open' : 'menu-btn__burger' }`}></span>
                     </div>
                 </header>
+                {/* <Outlet /> */}
             </div>
         )
     }
